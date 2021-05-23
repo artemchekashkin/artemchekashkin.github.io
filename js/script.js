@@ -43,10 +43,6 @@ window.addEventListener('DOMContentLoaded', () => {
         menu.classList.toggle('active');
     });
 
-    overlay.addEventListener('click', () => {
-        menu.classList.toggle('active');
-    });
-
 });
 
 /* $('[data-modal=send]').on('click', function () {
